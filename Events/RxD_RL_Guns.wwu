@@ -1,0 +1,1933 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FB992C77-BA7B-4E23-8107-C261067FE698}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="RxD_RL_Guns" ID="{FB992C77-BA7B-4E23-8107-C261067FE698}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="gun_152mm_pc" ID="{46510E1A-829C-4607-B485-8ABBD25FB81C}">
+					<ChildrenList>
+						<Action Name="" ID="{AD00B400-85CE-431F-9B61-F4FB355B1826}" ShortID="748391994">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="152mm_PC_Gun_Inside" ID="{99ED0249-2913-463F-854C-E33CDA03D4DF}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{ED06F1A5-D51F-4777-B10F-3094C1E937E1}" ShortID="706038217">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="152mm_PC_Gun_Outside" ID="{3E188755-93EA-4C86-8FBA-98D4A20805F9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6681D31D-EE9B-41D1-950C-C9213481907D}" ShortID="522363336">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="152mm_NPC_Gun_Other" ID="{19BFD840-A22A-41CB-8416-2964A24F9F77}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{357790A3-CC11-4395-BB38-CBEE0AED10B0}" ShortID="611133653">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="152mm_reload" ID="{8ECA850D-81B5-4F48-9E41-BE288A6CDF9F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_152mm_npc" ID="{BA708AF4-978F-4076-ACEA-1C78D1A66D84}">
+					<ChildrenList>
+						<Action Name="" ID="{30770447-99F3-4E33-B276-0C95BE4F4AAC}" ShortID="816384701">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="152mm_NPC_Gun" ID="{8B7C4C89-19B9-48A4-9AC7-DEDF96963148}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A1161FB9-E11C-4879-B6E1-5EDEEC4054F7}" ShortID="800976729">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="152mm_NPC_Gun_Other" ID="{19BFD840-A22A-41CB-8416-2964A24F9F77}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_20pdr_pc" ID="{CAC949BD-3C9A-466D-BD03-650B963C33D6}">
+					<ChildrenList>
+						<Action Name="" ID="{FB794504-6E21-45EC-BF74-85725B97B0FD}" ShortID="645387155">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="20pdr_PC_Gun_Outside" ID="{C66D4194-C889-440D-8F0C-FE65F508F772}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3E1E5F78-91FD-445A-940D-DC06826DB89E}" ShortID="355982669">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="20pdr_PC_Gun_Inside" ID="{A9FFEF98-70DC-40A2-ADBF-B6535D3BF8C9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{19DEFC25-869C-4D3A-8722-362F6ACBDB8D}" ShortID="827805301">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="20pdr_NPC_Other" ID="{37B455B2-356B-437A-90E4-DAC2DF90800F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_20pdr_npc" ID="{422F1801-CC10-422B-B0C9-3760465CDEA2}">
+					<ChildrenList>
+						<Action Name="" ID="{F5A58755-666F-4150-B80C-014C44A43059}" ShortID="85179460">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="20pdr_NPC_Gun" ID="{5D63A816-9167-4B4D-B200-5946B4C89EF6}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{96DEE002-1F02-4ABE-96AA-E3207A35F2F4}" ShortID="259221840">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="20pdr_NPC_Other" ID="{37B455B2-356B-437A-90E4-DAC2DF90800F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_20mm_auto_pc" ID="{9C863ECF-6282-495D-A349-54655208B0D6}">
+					<ChildrenList>
+						<Action Name="" ID="{8C685073-B387-4366-A455-99414CC8716B}" ShortID="539449868">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="20mm_auto_PC_Gun_Outside" ID="{4F8E91A8-ECE7-49D5-99D8-A43DA88C272D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D06590B3-074F-46D3-8F18-62F40891E1FD}" ShortID="664924000">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="20mm_auto_PC_Gun_Inside" ID="{1DC2599E-5C13-4DE8-8085-92AFA180F09F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2B04F369-B2F6-409C-AB69-5084A9BD26EF}" ShortID="446352350">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="20mm_auto_NPC_Other" ID="{BD639F2D-C20D-4BF5-9827-7C1BFF02C5A9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_20mm_auto_npc" ID="{7C334764-9B16-43E6-8548-5F030B1A847A}">
+					<ChildrenList>
+						<Action Name="" ID="{23E1150E-B8EE-45CA-B915-2F0802FB318C}" ShortID="370337527">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="20mm_auto_NPC_Gun" ID="{8DA79399-7A3C-49B1-9AF7-B7F6FF61F75E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FFDCF08E-9E76-406C-96D7-4CC759DA931B}" ShortID="41009053">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="20mm_auto_NPC_Other" ID="{BD639F2D-C20D-4BF5-9827-7C1BFF02C5A9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_12mm_auto_pc" ID="{C4B8BF64-8E99-440B-B4C5-9AB9FCA30BB3}">
+					<ChildrenList>
+						<Action Name="" ID="{B9992E40-E2E5-40C6-AA8A-1F311A8B3126}" ShortID="756819164">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="12mm_auto_PC_Gun_Outside" ID="{F9E389B2-E42C-4033-82D0-A4CBAE0877C6}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{04EF60E9-C0CA-4771-AD36-455B111CB4CB}" ShortID="315759421">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="12mm_auto_PC_Gun_Inside" ID="{1ADB7AC8-D65E-4032-ADA0-728834885FEB}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8956EE0C-9952-4D74-B503-B8E9A69F2B50}" ShortID="944406264">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="12mm_auto_NPC_Other" ID="{16D6EB1E-DDEB-4F40-8860-ABF46E8A4F37}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_12mm_auto_npc" ID="{058AF4FA-B0C6-4F68-A015-9408214A6F1F}">
+					<ChildrenList>
+						<Action Name="" ID="{EB61949D-F0C6-42D2-814C-F8D71798FD3B}" ShortID="217617335">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="12mm_auto_NPC_Gun" ID="{1D19CEE4-62A9-4270-B0EE-7A712D441AE7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4822D73F-33AF-4ED0-9795-208DE4EC9976}" ShortID="836151919">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="12mm_auto_NPC_Other" ID="{16D6EB1E-DDEB-4F40-8860-ABF46E8A4F37}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_25mm_pc" ID="{67518506-BA76-41A7-9DEB-DFC6FCB2C950}">
+					<ChildrenList>
+						<Action Name="" ID="{9FBFFCBA-A712-414E-B7AF-9BF2BE7C44C5}" ShortID="971574507">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="25mm_PC_Gun_Outside" ID="{6A264940-BEC3-4446-9673-33F2FFE53CE9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2E7B8F90-273B-4CCB-B31C-9DF820217E1E}" ShortID="16084000">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="25mm_PC_Gun_Inside" ID="{0DFCBECD-2DF7-4188-A07C-39757759C7E4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2F381F23-539B-46B7-B676-855B2B538526}" ShortID="325762928">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="25mm_NPC_Other" ID="{7D555420-CA30-4AE3-AA28-376D77DFCBDC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_25mm_npc" ID="{F0A9909C-C982-4D35-9902-B411E551661D}">
+					<ChildrenList>
+						<Action Name="" ID="{90E31A51-D780-44AC-BF51-3EAE8A132DBF}" ShortID="122256468">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="25mm_NPC_Gun" ID="{F2A11BBE-E13E-4E28-88E3-2F6D6E7566A4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{736D238F-E749-456B-AD72-EFA28CACC7B9}" ShortID="227404082">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="25mm_NPC_Other" ID="{7D555420-CA30-4AE3-AA28-376D77DFCBDC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_30mm_npc" ID="{24AD7926-459A-4810-A863-EFE4FC06AC7F}">
+					<ChildrenList>
+						<Action Name="" ID="{BA80D63F-B35A-489D-99E1-CC1B262316CF}" ShortID="498696913">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="30mm_NPC_Gun" ID="{3E400641-4BC8-444B-9773-0BBE096F7EF7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{234B5F27-1280-4104-84C3-CBFBFC2FD5D2}" ShortID="195157807">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="30mm_NPC_Other" ID="{F26CD172-A73F-4A37-899C-1876EDA9F64C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_30mm_pc" ID="{053AB509-209F-4DAA-AD5C-ACF6F56E0040}">
+					<ChildrenList>
+						<Action Name="" ID="{7B9E6C65-A509-4194-A241-BEB2CD15729A}" ShortID="378249987">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="30mm_PC_Gun_Outside" ID="{1E86AAC3-DB54-40B2-86D3-43EDCDBB196F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2424F122-4A46-4181-96EF-B29E20B62BBD}" ShortID="844890452">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="30mm_PC_Gun_Inside" ID="{E6605806-B69F-4FDE-A142-FB81D8DC676B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4F53A9C5-45FC-4CDA-8B47-1245238C1402}" ShortID="809631056">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="30mm_NPC_Other" ID="{F26CD172-A73F-4A37-899C-1876EDA9F64C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_32pdr_pc" ID="{66D421CF-0585-49DF-8366-CEAAEE2D9FA1}">
+					<ChildrenList>
+						<Action Name="" ID="{65E4746F-C8B2-487C-A23B-F611FB41474A}" ShortID="802551685">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="32pdr_PC_Gun_Outside" ID="{356A634F-2250-4455-AEFC-8A0015DA35F8}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D3636125-BB69-4E15-AC9B-791A47907A49}" ShortID="954345111">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="32pdr_PC_Gun_Inside" ID="{917F7FBE-0EF6-4588-825F-F4C9DD340805}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EEB1CB98-69F2-4967-97B4-60D893E34577}" ShortID="802944683">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="32pdr_NPC_Other" ID="{300C9CE1-467D-4340-B2CC-6DAD34201611}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_32pdr_npc" ID="{72E5DBC7-3FAD-4E6E-A09A-19A57E4F3B27}">
+					<ChildrenList>
+						<Action Name="" ID="{B2E21094-BE83-4996-B36E-939A70979EE9}" ShortID="240689145">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="32pdr_NPC_Gun" ID="{D304001E-E363-4BC4-9D8E-C31FC420FD83}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{96CA9373-E74E-457C-813B-4AF62A500391}" ShortID="314582964">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="32pdr_NPC_Other" ID="{300C9CE1-467D-4340-B2CC-6DAD34201611}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_37mm_pc" ID="{0FCF2AE7-2974-40EC-B0B0-6413CE08EBC5}">
+					<ChildrenList>
+						<Action Name="" ID="{23FC13B6-51E7-4B16-B4F7-71B35C77ED67}" ShortID="457771048">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="37mm_PC_Gun_Outside" ID="{1535D90F-B277-4DF1-B004-285039158D13}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{60D39134-41B7-41C3-8D3B-325D3CB1CEE6}" ShortID="50108157">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="37mm_PC_Gun_Inside" ID="{936D9CCB-EEDE-4F57-B4BD-9C7F21FA1736}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A0B5138B-F52A-4E9F-928C-AE638054C1BB}" ShortID="423589282">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="37mm_NPC_Other" ID="{0F03D112-98A1-4148-B608-B5A9E85D57B4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_37mm_npc" ID="{A04BBD43-2AC9-48BD-A1CD-2835814F5753}">
+					<ChildrenList>
+						<Action Name="" ID="{31C420F3-2E1F-47B1-92A2-E4684EFFB7A9}" ShortID="913993165">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="37mm_NPC_Gun" ID="{B7713875-C9D8-4739-AE59-A9EC1A4FAF73}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{39B2C3C1-4FC7-452B-8692-2D66FA106FE1}" ShortID="236898723">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="37mm_NPC_Other" ID="{0F03D112-98A1-4148-B608-B5A9E85D57B4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_40mm_npc" ID="{7D08263E-CCAA-4692-9983-9FFC5EEA3C33}">
+					<ChildrenList>
+						<Action Name="" ID="{A82A0DFC-E185-4B37-8BD1-6397210E43D4}" ShortID="321077824">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="40mm_NPC_Gun" ID="{5E4FD928-B2E6-42FC-BE12-AC0172FB557E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{54284CD3-9CED-40C9-9B86-0A147CE8E452}" ShortID="48039223">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="40mm_NPC_Other" ID="{E63E197B-6CB1-4966-990D-37D2A91CEBD9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_40mm_pc" ID="{0631ECC4-8008-4C70-9803-5D3655A3E6C2}">
+					<ChildrenList>
+						<Action Name="" ID="{EE201D7D-3913-427D-92F4-8D7836008662}" ShortID="31114893">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="40mm_PC_Gun_Outside" ID="{0004B20E-1234-4F6E-AAE9-C142A7B37ABC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F0789777-167B-47B6-8A11-2A3054C656CB}" ShortID="815257196">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="40mm_PC_Gun_Inside" ID="{B33874B3-EDA5-4578-87E9-DC5E048956BB}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{78CB0EE9-8B71-447C-BABC-E3517DF546E9}" ShortID="528587479">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="40mm_NPC_Other" ID="{E63E197B-6CB1-4966-990D-37D2A91CEBD9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_45mm_pc" ID="{9AC2F2FE-950C-44B2-BA46-3A9B2A1F1F83}">
+					<ChildrenList>
+						<Action Name="" ID="{8CE72A97-3543-404D-AB62-9760A3B6A407}" ShortID="952189923">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="45mm_PC_Gun_Outside" ID="{0D7E7EC7-2755-4D26-9950-5E92CDBA317B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A9E9D127-93E8-4ACC-9DC4-93BBFD2EE687}" ShortID="593861633">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="45mm_PC_Gun_Inside" ID="{DA348118-A30A-414D-988A-EE2DF8373172}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F55D292C-8314-45B7-8893-A86E042E3088}" ShortID="434886897">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="45mm_NPC_Other" ID="{BC48D76B-558C-43F2-906C-993FEF904C74}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_45mm_npc" ID="{B39A7268-8D6E-4B80-A62A-11E5A370E53D}">
+					<ChildrenList>
+						<Action Name="" ID="{F57AA0EC-0116-446B-BD33-CAC050C7951A}" ShortID="559421029">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="45mm_NPC_Gun" ID="{DF54911F-801B-474C-B671-F570E8EA8D81}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2CAB9632-8A3C-4138-9CEA-75647DA74D77}" ShortID="951087841">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="45mm_NPC_Other" ID="{BC48D76B-558C-43F2-906C-993FEF904C74}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_50mm_pc" ID="{8B3F0ED5-0765-4D5B-84F4-24CBC6066564}">
+					<ChildrenList>
+						<Action Name="" ID="{0821C012-049B-488A-9776-21912217B3AA}" ShortID="353596643">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="50mm_PC_Gun_Inside" ID="{C3F3F2D5-0F87-4523-9E85-BA06144CC03A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D424F4C9-3286-4321-9D11-301FE6BC610A}" ShortID="574574744">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="50mm_PC_Gun_Outside" ID="{A5E25CE4-8320-4CE2-9546-0D415F73C360}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{37E674EE-2640-45DE-B095-CB9C2E563769}" ShortID="435899441">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="50mm_NPC_Other" ID="{4D6052F3-B76A-4006-9ACF-B95162CB549C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_50mm_npc" ID="{34A6E898-41FC-408E-B401-A9101F158FAB}">
+					<ChildrenList>
+						<Action Name="" ID="{6FCE99C3-9399-4DF1-B0B8-4583C186A60C}" ShortID="648691504">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="50mm_NPC_Gun" ID="{8F4E6868-7255-477B-AAE0-A4099EB6B432}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{92223F58-2A16-4316-BC0F-8E397798F894}" ShortID="923794210">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="50mm_NPC_Other" ID="{4D6052F3-B76A-4006-9ACF-B95162CB549C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_57mm_npc" ID="{3E72C8D6-8F51-45A6-B908-2B3D87817890}">
+					<ChildrenList>
+						<Action Name="" ID="{466A578C-4CA5-4CEA-AD8C-8E885B180193}" ShortID="1073369659">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="57mm_NPC_Gun" ID="{3C4BBE14-AE06-4166-ACE2-E92CC3740904}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{06673E3D-8955-4980-B11F-9EF1DF096397}" ShortID="311440337">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="57mm_NPC_Other" ID="{4F87FBAF-472F-4B38-9AD9-1A2791568DA9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_57mm_pc" ID="{6CF39BF9-3353-40F4-9519-EC3F392654DC}">
+					<ChildrenList>
+						<Action Name="" ID="{6E77EA48-AF31-49B5-A9E9-F02DD6990A10}" ShortID="538811163">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="57mm_PC_Gun_Outside" ID="{8A9CA9BF-373F-40C6-AD6C-F7F759A38E53}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0D5CDF25-3887-4C09-BD21-DF4E2E22E2CE}" ShortID="876100503">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="57mm_PC_Gun_Inside" ID="{21F0717E-65B7-4412-8F21-869DEF4E3349}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B793D333-5CF9-46C6-90D2-54D8A9FEA680}" ShortID="83504894">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="57mm_NPC_Other" ID="{4F87FBAF-472F-4B38-9AD9-1A2791568DA9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_75mm_pc" ID="{E93F8F09-7E5A-4F8B-87B7-EB0187C87626}">
+					<ChildrenList>
+						<Action Name="" ID="{77AB0594-E256-4674-A311-4626EE3CEEC6}" ShortID="1068591662">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="75mm_PC_Gun_Outside" ID="{6115173D-9856-4A76-8958-7633D8C86AD2}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FDD14316-C99C-444D-9985-50944CBF9AC2}" ShortID="371924520">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="75mm_PC_Gun_Inside" ID="{778CC853-5D44-438C-B6AD-79874E6EDC46}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{05BBE9D0-6354-4EE0-803C-E87601766296}" ShortID="407213125">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="75mm_NPC_Other" ID="{4EDB87FF-67FA-479A-8120-462B8CDA1611}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_75mm_npc" ID="{51C2FE5A-9214-421E-8268-E5C10D002880}">
+					<ChildrenList>
+						<Action Name="" ID="{F5009D4B-22F6-4EFE-8535-D36710CC9B73}" ShortID="665993396">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="75mm_NPC_Gun" ID="{3B1B22A7-98FA-496A-995B-0845F7025C1B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FE59AC89-663A-4734-B348-D9A645B3B1CC}" ShortID="12264832">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="75mm_NPC_Other" ID="{4EDB87FF-67FA-479A-8120-462B8CDA1611}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_76mm_pc" ID="{2A076DC2-D461-4437-A236-E4978B28549B}">
+					<ChildrenList>
+						<Action Name="" ID="{EC2BFBEC-E807-4D77-A266-445959D33811}" ShortID="248527800">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="76mm_PC_Gun_Outside" ID="{CCB4CF76-5FFC-4538-9172-6401E12AD0EA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{58FC9A25-4285-49B5-9BEB-B0AA840082FF}" ShortID="183403320">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="76mm_PC_Gun_Inside" ID="{D94152A0-772C-4F9D-B258-D4F6EFD8A821}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4C1D4F30-AD20-4918-9472-4F8F8B4BDBD6}" ShortID="644018089">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="76mm_NPC_Other" ID="{D081A355-304D-460E-A1B8-4E60776E06AD}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_76mm_npc" ID="{B19B373F-335C-4D7A-A6D7-8D6CFF98B2E9}">
+					<ChildrenList>
+						<Action Name="" ID="{936C80EC-58A6-4C5D-830A-2D87FFDED790}" ShortID="787021339">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="76mm_NPC_Gun" ID="{25E3C69B-DB28-4A69-AABB-3AAE1F93123B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2FCCFA4C-C6E5-4879-8810-2964B6A3898E}" ShortID="710528239">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="76mm_NPC_Other" ID="{D081A355-304D-460E-A1B8-4E60776E06AD}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_85mm_pc" ID="{6B53A035-9C00-4EFE-BF1B-CA0FCFCE82D0}">
+					<ChildrenList>
+						<Action Name="" ID="{1FAD7A1F-32FD-4B61-985A-3F9696B99D85}" ShortID="276735952">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="85mm_PC_Gun_Outside" ID="{5266D276-CB02-4471-9A9F-970DD0B60D86}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5C514879-6F17-4AAA-B408-8F5E2E1DD285}" ShortID="514251370">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="85mm_PC_Gun_Inside" ID="{B0742D9F-329C-4434-B511-460A2B4A4F50}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6FA65368-5953-4515-80F6-0A4B405C9A57}" ShortID="390550686">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="85mm_NPC_Other" ID="{8CA4DF06-B235-4CAA-9096-3A1252997A0E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_85mm_npc" ID="{910087AA-475F-4CEB-B7D1-B081F80CC6C5}">
+					<ChildrenList>
+						<Action Name="" ID="{F18C1415-D6DD-4870-8040-20A19E3F5EB9}" ShortID="781670310">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="85mm_NPC_Gun" ID="{EEE638FD-BD0C-4898-8732-A7FE1878CC60}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8EF8A751-79E5-4277-8BAE-4A7767CDBC9D}" ShortID="648291332">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="85mm_NPC_Other" ID="{8CA4DF06-B235-4CAA-9096-3A1252997A0E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_88mm_pc" ID="{61A0741A-8B97-4B8F-A0E4-BD93394D5C7E}">
+					<ChildrenList>
+						<Action Name="" ID="{E058FDA8-06F2-4824-A4BF-044B77CA9285}" ShortID="161224897">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="88mm_PC_Gun_Outside" ID="{463686F2-746F-43EF-979B-BE4A69671BAA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1F18D6A2-30F9-496E-ACA8-6579BA9099B8}" ShortID="884627072">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="88mm_PC_Gun_Inside" ID="{9EEE7E91-EBA7-4580-8701-AD1CC91104CE}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{69879059-3C08-4337-BDF1-60397A71E8F6}" ShortID="777704412">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="88mm_NPC_Other" ID="{12BE9E1C-6FCC-4A60-B202-C0448F3CF904}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_88mm_npc" ID="{61160321-0029-4AE9-B926-C41F565E3F31}">
+					<ChildrenList>
+						<Action Name="" ID="{15C1636B-EEF9-4370-AB82-EB6C4B30A223}" ShortID="510783413">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="88mm_NPC_Gun" ID="{6C71D846-475E-4B71-8C3C-614D7BA0C213}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4970B104-90AA-4CC6-B115-C656CF8F8389}" ShortID="89359468">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="88mm_NPC_Other" ID="{12BE9E1C-6FCC-4A60-B202-C0448F3CF904}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_90mm_npc" ID="{13F59967-5B92-4EE7-AD9C-7C3980186CC1}">
+					<ChildrenList>
+						<Action Name="" ID="{73D50F8F-B296-4032-BB68-1C009B113827}" ShortID="576922173">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="90mm_NPC_Gun" ID="{24B6F68B-FF01-4E51-8149-1F1D62C1EC56}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0C24F214-4CCE-4B58-9C43-D9CF58CDC0A9}" ShortID="888195673">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="90mm_NPC_Other" ID="{3B71E691-E97B-43E0-B80E-65C9CEC2FE56}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_90mm_pc" ID="{FD35EE17-9F49-47C9-8BEC-26BA2D50CF95}">
+					<ChildrenList>
+						<Action Name="" ID="{F7A3F913-0A77-4B8A-AB88-326348834794}" ShortID="478001830">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="90mm_PC_Gun_Outside" ID="{83B22564-A4F2-499E-9B7E-5CBF8EB9F11C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F9EEBF64-C519-43A4-BC55-074E5158564B}" ShortID="892143945">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="90mm_PC_Gun_Inside" ID="{DEFE4FA6-48E7-4D43-88A1-4F43A9E1F029}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A15EA35A-6B4D-4B45-8BF4-86CAF6B84EE8}" ShortID="329663700">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="90mm_NPC_Other" ID="{3B71E691-E97B-43E0-B80E-65C9CEC2FE56}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_100mm_pc" ID="{BD7BEAE7-7A98-4CA7-A2EB-2F20FC4F6F5A}">
+					<ChildrenList>
+						<Action Name="" ID="{408BAEE9-AB73-4F79-8D52-0228BEDD4C0E}" ShortID="232809566">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="100mm_PC_Gun_Outside" ID="{EBE840D4-17A3-4636-8EFD-8D994AAC443B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{809ACA09-690B-4ED5-A6ED-F4FF0DD7CC46}" ShortID="322837974">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="100mm_PC_Gun_Inside" ID="{6D064F86-ACF6-46E6-8E67-EAF52E07C626}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E6B91736-4821-4879-89F3-129C2974E763}" ShortID="610597378">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="100mm_NPC_Other" ID="{0ACF8D27-FCF7-483B-BF8F-8D585F1A9EE6}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_100mm_npc" ID="{6F5CA3DE-D9B0-49F6-BC4E-DD5A736DF70C}">
+					<ChildrenList>
+						<Action Name="" ID="{C704150D-5394-483B-A31A-134BF10C6D66}" ShortID="378787872">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="100mm_NPC_Gun" ID="{1FF04A2F-8C7A-45B6-9EC0-8CD064DFE03C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A5B42EA9-33FB-4C28-9C04-391646B880D5}" ShortID="328341464">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="100mm_NPC_Other" ID="{0ACF8D27-FCF7-483B-BF8F-8D585F1A9EE6}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_105mm_pc" ID="{F2F00518-6C43-4520-B2D8-14940B26B71C}">
+					<ChildrenList>
+						<Action Name="" ID="{9F151CC6-20EB-4733-9F19-2F419188EA9C}" ShortID="669979999">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="105mm_PC_Gun_Outside" ID="{DCEC6835-B365-4F52-8B6E-95FEC0952B37}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{ED0CDC29-AB62-4913-AB15-CA1C84E1C6E0}" ShortID="635514083">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="105mm_PC_Gun_Inside" ID="{CEA7ED06-EDE0-4A1E-B3EA-F5E53171D8CC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{415B901A-C9C8-4803-BCCF-7DE019D46BB0}" ShortID="672408732">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="105mm_NPC_Other" ID="{8966FBA8-3EF9-43B0-8FD2-A2994449A534}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_105mm_npc" ID="{4C58F22E-B2B2-48CB-9920-73181EF79D5F}">
+					<ChildrenList>
+						<Action Name="" ID="{379CC6E7-8198-4CF0-B437-59A5963EC5AA}" ShortID="519658886">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="105mm_NPC_Gun" ID="{778E41B7-F33F-45AD-9932-3CC4BAB1F257}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6F5D3C52-7BED-45D1-9708-532F59441F8D}" ShortID="726580786">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="105mm_NPC_Other" ID="{8966FBA8-3EF9-43B0-8FD2-A2994449A534}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_120mm_npc" ID="{15F1DE5C-2D29-44B1-8997-6848971099C6}">
+					<ChildrenList>
+						<Action Name="" ID="{9FD46C1B-7C37-40DA-86BB-7D8AA12240ED}" ShortID="5272375">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="120mm_NPC_Gun" ID="{D1A24C31-56EC-4BAB-8F98-F2E7F0AFA9B6}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0A1DB4AB-1A1B-4C99-8EDD-AC8B714E0561}" ShortID="832523238">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="120mm_NPC_Gun_Other" ID="{E0EBE107-E0AA-4695-AD5D-2105C784B905}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_120mm_pc" ID="{F7AE8DB9-11C8-4697-A53C-3813BC6AC620}">
+					<ChildrenList>
+						<Action Name="" ID="{53C8934A-48B4-4269-9B2B-5C7B1CDF5481}" ShortID="270602677">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="120mm_PC_Gun_Outside" ID="{A74C9726-A18C-46F3-8DE0-E1998AF52CCB}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B7625A4D-B31D-4530-AD48-F2A48997B5D1}" ShortID="491310121">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="120mm_PC_Gun_Inside" ID="{E7C1634C-64DD-4BA1-A743-713DF3518649}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BEF26959-7117-466B-BC88-9ACB2E516EA4}" ShortID="126588447">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="120mm_NPC_Gun_Other" ID="{E0EBE107-E0AA-4695-AD5D-2105C784B905}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_122mm_npc" ID="{76713D29-B18E-4293-A8AF-CBFFE08150D8}">
+					<ChildrenList>
+						<Action Name="" ID="{E3A0E97F-9FF6-4BE1-8857-18318E3463C8}" ShortID="1043379958">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="122mm_NPC_Gun" ID="{8EC9B6E2-B15E-4A6C-9C64-FB20035E17D3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E3B802BA-E737-4785-9EB7-2047F4C6A0F9}" ShortID="701384048">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="122mm_NPC_Gun_Other" ID="{4830BB68-D9F0-4DE8-AECC-00E320036361}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_122mm_pc" ID="{E09D78AB-BDA6-4B1E-9D71-1EC9D56C490F}">
+					<ChildrenList>
+						<Action Name="" ID="{72F0A5F1-8056-43C9-AEEF-02ED91A742A1}" ShortID="1014172002">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="122mm_PC_Gun_Outside" ID="{CF0746D7-8DFD-4DC0-9232-58DF73E30DDF}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9F5B5641-AA7A-4270-B7C6-A6188D628FEF}" ShortID="289523219">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="122mm_PC_Gun_Inside" ID="{3B80AEA0-B59B-4F8C-8A98-B9DF92AEC31C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E4DEC769-FB60-48EF-AD05-39CE231A2117}" ShortID="752471359">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="122mm_NPC_Gun_Other" ID="{4830BB68-D9F0-4DE8-AECC-00E320036361}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{61445DD4-308B-40A6-A62D-6A6464F5AF38}" ShortID="993737354">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="122mm_reload" ID="{84C6B9E5-C172-45A1-99FE-7DAEB1A58168}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_128mm_pc" ID="{17257B16-186B-43F4-9104-7510E2A34766}">
+					<ChildrenList>
+						<Action Name="" ID="{FB11A344-BE92-4B1B-BDF3-F39E0A8EA083}" ShortID="812869743">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="128mm_PC_Gun_Outside" ID="{43ED4CEA-DD5B-4AE6-93E4-03BC59FDF34B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4CEFF523-41C6-4FAA-9C8C-E975EC642DF0}" ShortID="460095017">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="128mm_PC_Gun_Inside" ID="{2472E87E-EBDF-4D7C-8FCF-586BAFCE8803}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7B8D75F6-0EFD-4CBB-8BA6-8ABE1F59E09D}" ShortID="815966543">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="128mm_NPC_Gun_Other" ID="{28B8148C-1CE9-4CE6-B6EB-EBBF2D67BB62}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_128mm_npc" ID="{85451A87-7A38-4349-AD2C-ADF46CB896EA}">
+					<ChildrenList>
+						<Action Name="" ID="{91AA0A94-66FC-4C21-B79C-15711FCDE47E}" ShortID="248240243">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="128mm_NPC_Gun" ID="{B36A3402-9722-47A5-AB16-1D534B9F52CF}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2DDADD52-6CD6-41FD-8832-0DAA70C8AD1B}" ShortID="1001047736">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="128mm_NPC_Gun_Other" ID="{28B8148C-1CE9-4CE6-B6EB-EBBF2D67BB62}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_130mm_pc" ID="{F27E0503-52DB-4E17-AAC9-2700272EF718}">
+					<ChildrenList>
+						<Action Name="" ID="{C85D6EDB-31A9-4AED-93F3-DC0E1054659C}" ShortID="611988934">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="130mm_PC_Gun_Outside" ID="{245196BC-B497-4DA8-B221-24AC0FDD0FB3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1AA7C81E-6F3D-4C8A-BD03-3E0D922E40D7}" ShortID="336846294">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="130mm_PC_Gun_Inside" ID="{63B49CF6-15B3-4E16-BE59-375C35EDF70B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{32D1FC0F-C6C2-462D-80F0-019F9B34C272}" ShortID="625447212">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="130mm_NPC_Gun_Other" ID="{97EEEE9D-479E-4D17-A062-D9BD50A1E811}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_130mm_npc" ID="{64DF5646-5283-4021-A03D-374CBAFA92A4}">
+					<ChildrenList>
+						<Action Name="" ID="{39FA3AA9-3F3A-43C4-AD1C-F346728C4A51}" ShortID="993176895">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="130mm_NPC_Gun" ID="{2C7BA914-D603-4475-A466-00177C8557DC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8108CA49-F156-43D5-9E63-89703232B3C3}" ShortID="372139129">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="130mm_NPC_Gun_Other" ID="{97EEEE9D-479E-4D17-A062-D9BD50A1E811}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_150mm_pc" ID="{3B5DABFF-3DE8-4DB0-A159-BE7B56257616}">
+					<ChildrenList>
+						<Action Name="" ID="{6BA1D846-5DB0-4363-BCA0-8E251B27B382}" ShortID="900151360">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="150mm_PC_Gun_Outside" ID="{460CB686-C481-4A8E-9CE7-CBEC23C6A24A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{945EDE19-FB78-49BD-9965-31A98F82C166}" ShortID="364550780">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="150mm_PC_Gun_Inside" ID="{31D16E5B-7DA9-4871-B4B3-EA1923D5B88B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{011E608A-122C-4540-8495-60AFD227B443}" ShortID="865674319">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="150mm_NPC_Gun_Other" ID="{0F20983E-0835-4340-9C47-2D31A8AA85A6}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_150mm_npc" ID="{BBA3B7F9-511A-4C4F-BDA8-51FA36EFF995}">
+					<ChildrenList>
+						<Action Name="" ID="{16D7E60F-D9BF-4190-A3D9-36C54494E690}" ShortID="760351309">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="150mm_NPC_Gun" ID="{91BD6062-38B4-4026-AAF4-6CD2F9FCE657}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{545571D8-0DD3-44CB-863E-6DB354369D62}" ShortID="538572815">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="150mm_NPC_Gun_Other" ID="{0F20983E-0835-4340-9C47-2D31A8AA85A6}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_183mm_npc" ID="{EE56A0BC-C526-4D4D-B2F2-5E359C63653C}">
+					<ChildrenList>
+						<Action Name="" ID="{2AF46756-60B5-4E4A-B4D9-11B2BB79CF06}" ShortID="661140106">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="183mm_NPC_Gun" ID="{67F35FA1-77EC-41D5-BFDE-01C170975881}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{764AE670-04A6-4F40-AD26-8A6FD91E88AA}" ShortID="501601905">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="183mm_NPC_Gun_Other" ID="{101C064D-063D-44C3-95AD-A2061E1D9ADB}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_183mm_pc" ID="{FDE447ED-E839-4B39-ABFE-9AC946BA5B5E}">
+					<ChildrenList>
+						<Action Name="" ID="{EADD89E6-B663-4721-A78E-3A59F9A50FAB}" ShortID="575326881">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="183mm_PC_Gun_Outside" ID="{420BC9F0-1C7F-4D59-9D6E-719AB9258409}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E4FF4500-B252-4BAF-B735-EAAF0F9172B2}" ShortID="255375784">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="183mm_PC_Gun_Inside" ID="{AD83896A-ADF7-4375-8D6E-F30F61CFFB2B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{92CF7A2B-639C-43C1-AB26-153DC0FB1324}" ShortID="213286877">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="183mm_NPC_Gun_Other" ID="{101C064D-063D-44C3-95AD-A2061E1D9ADB}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7F48F9B2-EFFA-4343-82E1-EAA7CEF68536}" ShortID="540818816">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="183mm_reload" ID="{7F0B06A4-602D-4CCC-BEFA-AAA4D85A4D96}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_47mm_npc" ID="{0FB9C454-A888-4087-8E0A-1C274E932442}">
+					<ChildrenList>
+						<Action Name="" ID="{0B116D9D-7154-47B0-AED3-51826A53310A}" ShortID="271733212">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="47mm_NPC_Gun" ID="{60C7EDD0-7DBF-455A-B476-406ACD6510AE}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F7347E17-9115-4250-A816-21137C77AA09}" ShortID="647968436">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="47mm_NPC_Other" ID="{82E827F4-8628-4615-BDC7-D812B18E5200}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_47mm_pc" ID="{7C0BDD0E-810C-4E2C-840E-996093247A0B}">
+					<ChildrenList>
+						<Action Name="" ID="{B31DC511-88C6-408C-9459-216584E4A883}" ShortID="268980090">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="47mm_PC_Gun_Outside" ID="{F1F7A16C-88EA-4434-BA6B-91560CF4A039}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5EB9A0F8-3834-4B4C-A387-F7514E93BA6B}" ShortID="661841617">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="47mm_PC_Gun_Inside" ID="{E0543D5B-54F9-4FCD-8920-17C641AB5D73}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CEF6EC68-354A-441E-BBAD-02287C1BDDEC}" ShortID="961602050">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="47mm_NPC_Other" ID="{82E827F4-8628-4615-BDC7-D812B18E5200}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_155mm_pc" ID="{0DE7D1DF-6969-4F12-A574-AFAD6C3C7287}">
+					<ChildrenList>
+						<Action Name="" ID="{2ADBA8B2-0950-442B-BD16-D2FB7FF7CA45}" ShortID="287131140">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="155mm_PC_Gun_Inside" ID="{4F27FF3F-222C-4D4A-85D2-2194DBB8DEE3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A3FAF890-ACF5-4B81-8B70-F71E51A71706}" ShortID="203991245">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="155mm_NPC_Gun_Other" ID="{9F7F79E8-AAA1-493E-B2BF-DF5CBCDBFA7A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D592506D-22BD-4860-B61E-7DEA9DA14B6B}" ShortID="970867490">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="155mm_reload" ID="{D0224D1B-8C4B-4B6D-8999-4504105F52F9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{34053A80-2715-4620-B1C1-72685B70E143}" ShortID="564490327">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="155mm_NPC_Gun" ID="{3FBCCFC2-8718-4D7B-9FC8-4BBB44717CA7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_155mm_npc" ID="{82C48E70-3094-4869-A060-53418F397D3D}">
+					<ChildrenList>
+						<Action Name="" ID="{0A8A521D-BB67-4480-9226-4C88916DBB7F}" ShortID="608283026">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="155mm_NPC_Gun" ID="{3FBCCFC2-8718-4D7B-9FC8-4BBB44717CA7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2C1121C5-DC76-4B41-9681-90E2B2146DA1}" ShortID="215017277">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="155mm_NPC_Gun_Other" ID="{9F7F79E8-AAA1-493E-B2BF-DF5CBCDBFA7A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_170mm_npc" ID="{9C185D79-4401-4CC6-B8BB-756DCC6F1A9F}">
+					<ChildrenList>
+						<Action Name="" ID="{1E1C38F2-1889-4E12-9ACD-9C35971B99EF}" ShortID="421233159">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="170mm_NPC_Gun_Other" ID="{47EAC08D-A351-4DC2-B7EF-D670012DC455}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EF53CEF3-EF5D-4D7D-B006-A381C13D507A}" ShortID="373084947">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="170mm_NPC_Gun" ID="{D732D118-D59F-4A07-8C3F-54DC1FB0AB65}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_170mm_pc" ID="{6D6637CA-18F8-4716-A8A0-71FAEE6BA907}">
+					<ChildrenList>
+						<Action Name="" ID="{4167D355-45F5-4BDB-8EDD-EF3C73260CBB}" ShortID="528740659">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="170mm_PC_Gun_Inside" ID="{C6474AFD-B212-4BBE-8D58-94ED2EF72E79}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{49BECC8C-DC2A-4E81-8578-DB61A654F3EC}" ShortID="738728179">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="170mm_NPC_Gun_Other" ID="{47EAC08D-A351-4DC2-B7EF-D670012DC455}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E8B1D851-8828-48E4-BDE6-66DB8471D9FA}" ShortID="47844657">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="170mm_reload" ID="{DFF43A92-5FC9-44D0-A125-C0E6702157BB}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E477192E-2500-4DA4-8989-C9AB7FF9DE59}" ShortID="77776310">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="170mm_PC_Gun_Outside" ID="{27772877-9B79-422C-8657-0625F5D357D9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_107mm_pc" ID="{94CD70FA-1ED8-488B-8874-F77B49DDB617}">
+					<ChildrenList>
+						<Action Name="" ID="{9F7765E4-9D35-4C12-A148-B7F340432962}" ShortID="137887130">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="107mm_PC_Gun_Outside" ID="{7EEEBB9C-2F81-46D1-9E8D-A721D19CAA8B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{53B3E572-1F80-4080-A6FD-FBC3BB564942}" ShortID="126584663">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="107mm_PC_Gun_Inside" ID="{390D8B30-9E21-4DCC-96E0-A2F356AE09ED}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7950599C-90B4-4A3B-B9E6-106AD5820BE5}" ShortID="921795458">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="107mm_NPC_Other" ID="{F13C296E-6516-4FE5-B44F-CDA760E26518}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_107mm_npc" ID="{87BF9FD3-3E70-4E6F-BD76-2DAB1BAD62EB}">
+					<ChildrenList>
+						<Action Name="" ID="{161F01F2-D093-46C2-90A6-0C1C5B303259}" ShortID="298216928">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="107mm_NPC_Gun" ID="{E2532938-7CDE-4D28-A718-520A4C389B81}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6345B2C5-D14B-471B-B23F-4A903C2293BB}" ShortID="345231678">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="107mm_NPC_Other" ID="{F13C296E-6516-4FE5-B44F-CDA760E26518}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_110mm_npc" ID="{88AB539D-E37A-494C-A737-FC5DB9BFA33C}">
+					<ChildrenList>
+						<Action Name="" ID="{85FA3A17-DC72-4D57-A019-592024FD7C88}" ShortID="560332776">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="110mm_NPC_Gun" ID="{1EBBC697-8E4E-4BBC-AD1B-50019357EFA2}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1F364614-2B8C-4D67-8BCB-3EE5BBD64276}" ShortID="414351488">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="110mm_NPC_Other" ID="{DEE2D38A-9CA1-40A9-8AB6-791EF20C854C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_140mm_pc" ID="{5799E2B5-B655-441D-860D-1534152D05AE}">
+					<ChildrenList>
+						<Action Name="" ID="{1978DD0A-38E2-40ED-BB3F-FAE9287409AA}" ShortID="742858899">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="140mm_PC_Gun_Outside" ID="{E29F1E60-8AD8-48E4-A995-3A655EDE3E7E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4767A9BC-DB23-401F-8D12-88A43F467ED7}" ShortID="334504117">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="140mm_PC_Gun_Inside" ID="{B7C08737-E392-485A-93BE-5198276F3FE3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A513B053-4FED-48E3-89E8-F3E983CBD89C}" ShortID="965648985">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="140mm_NPC_Gun_Other" ID="{DBA2FE82-D319-4EC7-8688-FF0FEA4B9F6F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_110mm_pc" ID="{B7223ED5-75EE-4193-9C4E-BDF13B02DD57}">
+					<ChildrenList>
+						<Action Name="" ID="{5B56F4A4-B029-43D5-AC49-9EB260AFF502}" ShortID="74642901">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="110mm_PC_Gun_Outside" ID="{523CF80A-BA9E-49A2-A1B6-28CD920E4C4C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{493B7BDD-4AB4-44F4-9481-156A766203DC}" ShortID="489650434">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="110mm_PC_Gun_Inside" ID="{B9373D2C-720E-4826-AA21-0E2C6907786A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{97C54965-0C1B-4962-BC6F-0A0E56D493E5}" ShortID="2600219">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="110mm_NPC_Other" ID="{DEE2D38A-9CA1-40A9-8AB6-791EF20C854C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_140mm_npc" ID="{8669BF30-5754-4581-B924-6577D89CF5EF}">
+					<ChildrenList>
+						<Action Name="" ID="{BB490880-B92A-4F19-AADF-6D3CAD24DC6A}" ShortID="59540854">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="140mm_NPC_Gun" ID="{CEFB14E4-3E29-4C70-95E4-149CE9B77759}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A0E0883F-3E57-44B2-988F-F85E49F9F79D}" ShortID="36915883">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="140mm_NPC_Gun_Other" ID="{DBA2FE82-D319-4EC7-8688-FF0FEA4B9F6F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_77mm_npc" ID="{C0BF4513-E34F-4F76-B5D6-347BFF741390}">
+					<ChildrenList>
+						<Action Name="" ID="{242D7F59-1B73-46AA-8340-BB723EA21835}" ShortID="666264577">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="77mm_NPC_Gun" ID="{F5250B54-6103-4D08-B33B-A71C381A6192}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1E23BB8B-C2CD-42D0-A491-20F96718B15C}" ShortID="522674663">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="77mm_NPC_Other" ID="{8C92DA9C-C75A-46B4-AF8E-FD62DD6361BD}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_123mm_npc" ID="{CE5BC4BA-F59F-4DF3-9344-69AEF96EE50D}">
+					<ChildrenList>
+						<Action Name="" ID="{E003134A-30B9-4AEA-8028-A3330F0F367F}" ShortID="688792815">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="123mm_NPC_Gun" ID="{07D91481-9744-49A2-B159-09A8095B7BAA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{ECC466FE-1D25-487D-B05D-EAFDA98439A1}" ShortID="562501505">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="123mm_NPC_Gun_Other" ID="{EFE53806-DA2D-4C47-A235-83B8FB985C13}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_127mm_npc" ID="{022EF348-1158-4181-AB3B-6FA58CD6B690}">
+					<ChildrenList>
+						<Action Name="" ID="{0C900DF3-8CB1-4A4E-B08B-6AC367B1E4EF}" ShortID="451480978">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="127mm_NPC_Gun" ID="{A21CE4F0-F0FA-434E-8AD0-472AF3B444AA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{396E1FC0-5916-4DF8-9C34-194C63EA9786}" ShortID="112016784">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="127mm_NPC_Gun_Other" ID="{A7C50C9B-CEB2-4F93-8F63-1556730D9EA7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_149mm_npc" ID="{62ECCFF9-6FC1-4593-BFC8-DF0E2FE260B5}">
+					<ChildrenList>
+						<Action Name="" ID="{24CBA81C-818A-411B-879D-F73B20511182}" ShortID="954305115">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="149mm_NPC_Gun" ID="{322E4BFA-2646-4263-97CF-664BCCB3F0E7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{646AB329-F81E-4B33-9C5A-3856AA699416}" ShortID="329049586">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="149mm_NPC_Gun_Other" ID="{B9D97357-629C-4B2F-9302-210B7DD6968C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_80mm_pc" ID="{9FE026CB-E8AD-446E-AC7B-EC9C9A804D12}">
+					<ChildrenList>
+						<Action Name="" ID="{1556E1C3-9101-4A4B-9832-1AA8C9A0D495}" ShortID="208061267">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="80mm_NPC_Other" ID="{568FEFD7-9D2C-4C75-9307-58F486513924}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4DF1794B-5660-41A3-A8D1-D5406DAFA113}" ShortID="806333261">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="80mm_PC_Gun_Inside" ID="{F35E41A5-CCC8-4A80-8F41-3EF561343037}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{50F05A8E-12FA-426F-B3EE-6F98B02337B2}" ShortID="135304466">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="80mm_PC_Gun_Outside" ID="{3F5DF009-4D8A-4D1E-AF38-3C6F4B8728DA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_123mm_pc" ID="{7B4EA192-EE68-417E-AE5D-0BAB277C3A19}">
+					<ChildrenList>
+						<Action Name="" ID="{D2532243-1727-4829-B477-DB660095C316}" ShortID="144546587">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="123mm_PC_Gun_Outside" ID="{2FA77479-C066-4932-9C37-E9EB6E1206BE}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{68642C94-814C-4ADF-ACC3-04633087BAE6}" ShortID="1040667221">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="123mm_PC_Gun_Inside" ID="{C030E9E3-5BD4-44E8-8EC2-B54FB39C9702}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{56844A0E-1ACC-4340-BE5C-E425998D79CD}" ShortID="1012246204">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="123mm_NPC_Gun_Other" ID="{EFE53806-DA2D-4C47-A235-83B8FB985C13}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{24E2B381-3B59-420D-9975-F2A933559C6C}" ShortID="1020473295">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="122mm_reload" ID="{27D0A65E-9DFC-4170-9559-B4C5B1B60C26}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_127mm_pc" ID="{11166845-40FA-4ED7-8820-8D16C6DD7403}">
+					<ChildrenList>
+						<Action Name="" ID="{B54CDC4B-FF39-4DA2-BDC5-F151F517955A}" ShortID="85996885">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="127mm_PC_Gun_Outside" ID="{EDD5C7D7-E958-4530-B5C3-57A41B8BFBBF}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{623ABAAF-0234-461B-AA92-D3488DDF4782}" ShortID="847277311">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="127mm_PC_Gun_Inside" ID="{615B20EB-A790-46AC-904E-D03252691B4B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4B255680-1C71-4D11-A664-B19432954C42}" ShortID="536630038">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="127mm_NPC_Gun_Other" ID="{A7C50C9B-CEB2-4F93-8F63-1556730D9EA7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_77mm_pc" ID="{F55C7836-9003-4756-9046-67A6086E536A}">
+					<ChildrenList>
+						<Action Name="" ID="{119849E5-5863-4281-AAEB-A7DF2340C394}" ShortID="383876575">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="77mm_PC_Gun_Outside" ID="{51769A1B-D12A-4E28-84CB-920D0C320074}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{14D02D7E-25AE-45FC-BB0B-CAAE55FC8F89}" ShortID="889098932">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="77mm_NPC_Other" ID="{8C92DA9C-C75A-46B4-AF8E-FD62DD6361BD}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A733C294-B47D-4BCA-8071-091D96F81109}" ShortID="403462910">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="77mm_PC_Gun_Inside" ID="{5A221A42-5724-4699-854E-EBB53662C82E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_149mm_pc" ID="{984E586C-DA3E-4CA2-A31C-57C85BB082DC}">
+					<ChildrenList>
+						<Action Name="" ID="{2ECC8088-489B-4983-B820-9F47670C5C35}" ShortID="79449259">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="149mm_PC_Gun_Outside" ID="{8CED6E10-C99E-4DB9-B86C-18C9E78C601B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C9A8BE66-9306-4A01-916C-4A283336BF27}" ShortID="838784518">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="149mm_PC_Gun_Inside" ID="{F67E0EC0-3FC7-45B1-A713-68E3CBD62021}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F81A07D2-6551-46EC-9BBF-272A1562EC9A}" ShortID="328276291">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="149mm_NPC_Gun_Other" ID="{B9D97357-629C-4B2F-9302-210B7DD6968C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_80mm_npc" ID="{D4551ABF-8738-4590-8669-B52615414DB4}">
+					<ChildrenList>
+						<Action Name="" ID="{B4230E3E-6AB8-475B-B224-847BB862ED18}" ShortID="995385057">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="80mm_NPC_Gun" ID="{0DA5FFF9-8A1E-40AB-B176-6033C6090E95}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C515FE7C-8CBE-40D9-A4F3-7904C2324D45}" ShortID="957413769">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="80mm_NPC_Other" ID="{568FEFD7-9D2C-4C75-9307-58F486513924}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_83mm_pc" ID="{2C144ED6-2CBB-4158-A60B-753474BD33A7}">
+					<ChildrenList>
+						<Action Name="" ID="{23B36CB8-688D-400B-9600-110CF0ED9EBB}" ShortID="624622950">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="83mm_PC_Gun_Outside" ID="{D394D852-8100-4C13-B8EF-99D287CDF299}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{092F65DE-6074-4CEA-ACC1-E280392E5327}" ShortID="25918258">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="83mm_NPC_Other" ID="{7085750F-8299-4940-865E-0ECE8E7165E6}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1C45B50A-6E43-42CE-ADE2-A706E02E65C5}" ShortID="473207749">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="83mm_PC_Gun_Inside" ID="{AE9CD8DF-2997-4AC4-ADE3-572331EA84AC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_83mm_npc" ID="{DD2C370F-CE30-4352-9396-BE8270CAF5FF}">
+					<ChildrenList>
+						<Action Name="" ID="{CFF081A4-75AC-4FE7-9E4B-DC06D5B1FC3C}" ShortID="680834142">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="83mm_NPC_Gun" ID="{0AB13FAD-958B-4EAB-A70B-7643D4C47551}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{803EF5D5-EBAA-42E4-987A-2DB069D5440D}" ShortID="383229369">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="83mm_NPC_Other" ID="{7085750F-8299-4940-865E-0ECE8E7165E6}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="guns_tow_tow_npc" ID="{A8BDC26D-A3C8-44E8-93E9-55A176F59367}">
+					<ChildrenList>
+						<Action Name="" ID="{FC28A106-8C4D-4F05-9079-D5A991C48CE7}" ShortID="209038824">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="150mm_NPC_Gun_Other" ID="{0F20983E-0835-4340-9C47-2D31A8AA85A6}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8F03A0D8-4889-43F1-B8D6-87D1A819D8BC}" ShortID="460155082">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Outside" ID="{7615F805-956B-43F4-A34F-F8BD2D7B7E09}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="guns_tow_tow_pc" ID="{2F297521-0000-4791-B5AD-8F34CE8A2F69}">
+					<ChildrenList>
+						<Action Name="" ID="{5D54C2D3-E30D-4E8F-A44C-DA0290B92A0A}" ShortID="280092147">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Inside" ID="{75CE1E30-33F6-4873-9EEF-BAACB267AF39}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{26657F75-C89C-4BCB-8792-5E82136FEFBB}" ShortID="686328385">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Outside" ID="{7615F805-956B-43F4-A34F-F8BD2D7B7E09}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D1611109-E0C4-4EF3-AB33-ED1B6CA1C8FF}" ShortID="93541170">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="150mm_NPC_Gun_Other" ID="{0F20983E-0835-4340-9C47-2D31A8AA85A6}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
